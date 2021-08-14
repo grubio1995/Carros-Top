@@ -1,0 +1,49 @@
+.main-nav {
+  padding-left: 20px;
+  min-height: 70px;
+}
+
+.main-nav nav-logo-text {
+  padding-left: 20px;
+  min-height: 70px;
+}
+
+.nav-logo-text {
+  color: #00285f;
+}
+
+.nav-logo-text:hover {
+  color: #fff;
+}
+
+.main-menu {
+  display: flex;
+  font-size: 18px;
+  width: 175px;
+  justify-content: space-between;
+}
+
+.main-menu a {
+  color: #00285f;
+}
+
+.main-menu a:hover {
+  color: #fff;
+}
+
+.main-menu a.active {
+  font-weight: bold;
+}
+
+@media (min-width: 576px) {
+  .main-nav {
+    padding-left: 88px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-menu {
+    padding-left: 228px;
+    width: 400px;
+  }
+}
