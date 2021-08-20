@@ -22,8 +22,10 @@ const Home = () => {
           </div>
         </div>
         <div className="home-card-bottom">
-          <div className="home-bottom-content-container">
+          <div className="home-bottom-button-container">
             <Button />
+          </div>
+          <div className="home-bottom-content-container">
             <p>Comece agora a navegar</p>
           </div>
         </div>

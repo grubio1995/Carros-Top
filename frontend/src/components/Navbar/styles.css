@@ -11,6 +11,10 @@
   color: #fff;
 }
 
+.nav-logo-text h4 {
+  font-size: 24px;
+}
+
 .main-menu {
   display: flex;
   font-size: 18px;
