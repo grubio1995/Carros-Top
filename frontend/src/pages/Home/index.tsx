@@ -9,7 +9,7 @@ const Home = () => {
     <>
       <Navbar />
       <div className="home-container">
-        <div className="home-card">
+        <div className="base-card home-card">
           <div className="home-content-container">
             <h1>O carro perfeito para você</h1>
             <p>
@@ -21,9 +21,9 @@ const Home = () => {
             <img src={CarImg} alt="Carro" />
           </div>
         </div>
-        <div className="home-card-bottom">
+        <div className="base-card home-card-bottom">
           <div className="home-bottom-button-container">
-            <Button />
+            <Button texto={'VER CATÁLOGO'} />
           </div>
           <div className="home-bottom-content-container">
             <p>Comece agora a navegar</p>

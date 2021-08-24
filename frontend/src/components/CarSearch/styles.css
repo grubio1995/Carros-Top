@@ -1,0 +1,8 @@
+.search-card {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: row;
+  width: 100%;
+  padding: 50px 15px 50px 15px;
+  margin-bottom: 20px;
+}
