@@ -3,6 +3,32 @@
   flex-direction: row-reverse;
   flex-wrap: row;
   width: 100%;
-  padding: 50px 15px 50px 15px;
+  padding: 30px 15px;
+  margin-top: 30px;
   margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+  .search-card {
+    padding: 50px 15px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .search-card {
+    padding: 50px 11px;
+  }
+}
+
+@media (min-width: 992px) {
+  .search-card {
+    padding: 50px 95px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .search-card {
+    padding: 50px 195px;
+  }
 }

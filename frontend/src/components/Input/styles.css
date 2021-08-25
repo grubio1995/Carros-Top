@@ -11,3 +11,24 @@
 .button-container button {
   width: 77px;
 }
+
+@media (min-width: 576px) {
+  .input-container input {
+    width: 310px;
+  }
+  .button-container button {
+    width: 174px;
+  }
+}
+
+@media (min-width: 768px) {
+  .input-container input {
+    width: 500px;
+  }
+}
+
+@media (min-width: 992px) {
+  .input-container input {
+    width: 580px;
+  }
+}
